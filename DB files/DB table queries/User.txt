@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[Users](
+	[UserID] [nvarchar](50) NOT NULL,
+	[Password] [nchar](10) NOT NULL,
+	[UserType] [nvarchar](50) NOT NULL,)
+
+
+
+
+((Primary key-UserID))

@@ -1,0 +1,11 @@
+CREATE TABLE [dbo].[Meals](
+	[MealPlan] [nvarchar](50) NOT NULL,
+	[Price] [int] NOT NULL,
+	[Info] [nvarchar](max) NOT NULL)
+
+
+((Primary key-MealPlan))
+
+
+
+

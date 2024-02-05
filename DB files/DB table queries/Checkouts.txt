@@ -1,0 +1,18 @@
+CREATE TABLE [dbo].[CheckOuts](
+	[RID] [nchar](450) NOT NULL,
+	[Customer_Name] [nchar](100) NOT NULL,
+	[NIC] [nchar](50) NOT NULL,
+	[Phone] [int] NOT NULL,
+	[Email] [nchar](100) NOT NULL,
+	[CheckIn] [date] NOT NULL,
+	[CheckOut] [date] NOT NULL,
+	[RoomNumber] [nchar](10) NOT NULL,
+	[RoomPrice] [float] NOT NULL,
+	[MealPrice] [float] NOT NULL,
+	[DaysStayed] [int] NOT NULL,
+	[Extra] [float] NOT NULL,
+	[TotalAmount] [float] NOT NULL,)
+
+
+
+((Primary key- RID))

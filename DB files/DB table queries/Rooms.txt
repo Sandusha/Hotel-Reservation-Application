@@ -1,0 +1,11 @@
+CREATE TABLE [dbo].[Rooms](
+	[RoomNumber] [nchar](10) NOT NULL,
+	[RoomType] [nchar](10) NOT NULL,
+	[Bed] [nchar](10) NOT NULL,
+	[Price] [int] NOT NULL,
+	[Status] [nvarchar](50) NOT NULL,)
+
+
+
+
+((Primary key- RoomNumber))

@@ -1,0 +1,20 @@
+CREATE TABLE [dbo].[CheckIns](
+	[RID] [nchar](450) NOT NULL,
+	[Name] [nchar](100) NOT NULL,
+	[NIC] [nchar](50) NOT NULL,
+	[Mobile] [int] NOT NULL,
+	[Address] [nchar](150) NOT NULL,
+	[Email] [nchar](100) NOT NULL,
+	[Checkin] [date] NOT NULL,
+	[RoomType] [nchar](10) NOT NULL,
+	[BedType] [nchar](10) NOT NULL,
+	[RoomNumber] [nchar](10) NOT NULL,
+	[Occupancy] [int] NOT NULL,
+	[MealPlan] [nchar](10) NOT NULL,
+	[MealPrice] [int] NOT NULL,
+	[RoomPrice] [int] NOT NULL,
+	[Status] [nchar](50) NOT NULL,)
+
+
+
+((Primary key- RID))
